@@ -1,0 +1,16 @@
+# Core dependencies for Amazon Product Search Automation
+# Author: George Lin
+
+# Web automation framework
+playwright==1.48.0
+
+# Testing framework
+pytest==8.3.4
+pytest-playwright==0.6.2
+
+# Web framework for API and UI
+Flask==3.1.0
+Flask-CORS==5.0.0
+
+# Production WSGI server for deployment
+gunicorn==23.0.0

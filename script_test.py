@@ -1,5 +1,5 @@
 """
-Test Suite for Amazon Product Search Automation
+Tests for Amazon Product Search Automation
 
 Author: George Lin
 
