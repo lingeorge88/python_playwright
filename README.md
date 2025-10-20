@@ -7,7 +7,7 @@ A Python-based web automation tool that searches Amazon products and extracts pr
 
 ## Live Demo
 
-🌐 **Live Application:** https://python-playwright-gl.onrender.com/
+🌐 **Web URL:** https://python-playwright-gl.onrender.com/
 
 ![Web UI Screenshot](./resources/app.png)
 ---
@@ -35,7 +35,7 @@ A Python-based web automation tool that searches Amazon products and extracts pr
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/lingeorge88/python_playwright
    cd python_playwright
    ```
 
@@ -139,28 +139,6 @@ curl -X POST http://localhost:5000/api/search \
     "[10:30:25] Price: $499.00"
   ]
 }
-```
-
----
-
-## Project Structure
-
-```
-python_playwright/
-├── script.py              # Core automation script
-├── script_test.py         # Pytest test suite
-├── app.py                 # Flask web application
-├── templates/
-│   └── index.html         # HTML template
-├── static/
-│   ├── css/
-│   │   └── style.css      # Styles
-│   └── js/
-│       └── app.js         # JavaScript
-├── requirements.txt       # Dependencies
-├── Procfile              # Render deployment config
-├── README.md
-└── .gitignore
 ```
 
 ---
