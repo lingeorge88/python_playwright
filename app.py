@@ -237,9 +237,8 @@ async def run_automation(search_term, headless, log_func):
 if __name__ == "__main__":
     print("=" * 60)
     print("Amazon Product Search Web Service")
-    print("Author: George Lin")
     print("=" * 60)
-    print("\nStarting server...")
+    print("\nStarting development server...")
     print("Web UI: http://localhost:5000")
     print("API Endpoint: http://localhost:5000/api/search")
     print("Health Check: http://localhost:5000/api/health")
