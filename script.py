@@ -84,8 +84,8 @@ async def main() -> None:
 
     # Initialize Playwright and launch browser
     async with async_playwright() as p:
-        # Launch Chromium in headed mode (headless=False shows browser window)
-        browser = await p.chromium.launch(headless=False)
+        # Launch Chromium in headedless mode, required for render deployment
+        browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()
 
         try:
